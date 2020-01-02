@@ -308,7 +308,8 @@ class _RenderCircularCheckBox extends RenderToggleable {
         ..style = PaintingStyle.stroke
         ..strokeWidth = 1.0;
       if (t <= 0.5) {
-        canvas.drawCircle(center, 11, paintX);
+        //canvas.drawCircle(center, 11, paintX);
+        canvas.drawCircle(center, 13, paint);
       } else {
         canvas.drawCircle(center, 13, paint);
 
